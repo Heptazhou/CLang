@@ -1,5 +1,5 @@
-#include <math.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 #define flush(stream)    ((stream)->_IO_read_ptr = (stream)->_IO_read_end)
