@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	void sort(int *, int, int);
 

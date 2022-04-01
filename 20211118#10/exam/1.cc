@@ -2,7 +2,7 @@
 
 #define TRUE 1
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	using namespace std;
 

@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	std::cout
 		<< "1. In C, lowercase letters are significant.\n"

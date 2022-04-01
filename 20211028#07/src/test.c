@@ -3,7 +3,7 @@
 #include <gmp.h>
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	void factorial(unsigned, mpz_t);
 
@@ -21,5 +21,5 @@ int main(int argc, char const *argv[])
 void factorial(unsigned n, mpz_t result)
 {
 	mpz_set_ui(result, 1);
-	while (n > 1) { mpz_mul_ui(result, result, n), n--; }
+	while (n > 1) mpz_mul_ui(result, result, n), n--;
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	short a = -32768,
 		  b = 1,

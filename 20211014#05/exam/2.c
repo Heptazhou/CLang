@@ -1,7 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	double F = 95;
 	double C = (F - 32) * 5 / 9;

@@ -1,5 +1,5 @@
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	int A$;
 	int INT;

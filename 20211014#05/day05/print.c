@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	int n = 9;
 	for (int i = 1; i <= n; i++)

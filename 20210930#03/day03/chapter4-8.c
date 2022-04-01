@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	void
 	multiple_next_println(int, int);
@@ -11,6 +11,7 @@ int main(int argc, char const *argv[])
 
 int _multiple_next_a(int i, int j) { return i / j * j + j; }
 int _multiple_next_b(int i, int j) { return i + j - i % j; }
+
 void multiple_next_println(int i, int j)
 {
 	int k = _multiple_next_b(i, j);

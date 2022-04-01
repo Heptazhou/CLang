@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	long x = 0;
 	printf("Input an integer (-2^63 ~ 2^63-1): ");

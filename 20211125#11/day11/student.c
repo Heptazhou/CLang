@@ -19,7 +19,7 @@ typedef struct student {
 	struct student *next;
 } student_t;
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	void       student_info_i(student_t *);
 	void       student_info_o(student_t *);

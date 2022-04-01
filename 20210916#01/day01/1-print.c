@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	printf("%s%s%s%s\n",
 		   "1. In C, lowercase letters are significant.\n",

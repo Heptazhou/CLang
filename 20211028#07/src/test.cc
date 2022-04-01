@@ -3,7 +3,7 @@
 #include <gmpxx.h>
 #include <iostream>
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	unsigned n = 3000;
 

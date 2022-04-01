@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
-	char const *rating(double);
+	const char *rating(double);
 
 	double n;
 	printf("Input score (0 ~ 100):\n");
@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
 		printf("\ecInvalid input.\n");
 }
 
-char const *rating(double score)
+const char *rating(double score)
 {
 	if (score >= 100) return "A+";
 	if (score >= 90) return "A";

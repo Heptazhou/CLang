@@ -5,7 +5,7 @@
 
 #define MIN(a, b) (((a) < (b)) ? (a) : (b))
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	void sort(int *, int);
 

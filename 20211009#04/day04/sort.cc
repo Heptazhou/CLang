@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	using std::cin;
 	using std::swap;
