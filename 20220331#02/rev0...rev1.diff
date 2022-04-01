@@ -1,0 +1,27 @@
+--- badloops-raw.c	2022-04-01 11:30:30.503046800 +0000
++++ badloops-rev1.c	2022-04-01 11:30:30.512507100 +0000
+@@ -17,21 +17,19 @@
+ 
+ #include <stdio.h>
+ 
+-main()
++int main()
+ {
+ 	char word[80];
+-	int  i, j;
++	int  i = 0, j = 0;
+ 
+ 	printf("Enter any word: ");
+ 	scanf("%s", word);
+-	i = 0;
+ 	while (word[i] != '\0')
+ 	{
+ 		if (word[i] == word[i + 1])
+ 		{
+ 			j = 1;
+-			while (word[i] == word[i + j])
+-				j++;
++			while (word[i] == word[i + j]) j++;
+ 			printf("%d consecutive %c\n", j, word[i]);
+ 		}
+ 		i++;

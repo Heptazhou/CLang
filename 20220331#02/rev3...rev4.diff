@@ -1,0 +1,22 @@
+--- badloops-rev3.c	2022-04-04 09:57:24.300007400 +0000
++++ badloops-rev4.c	2022-04-04 09:57:24.303009400 +0000
+@@ -20,11 +20,10 @@
+ int main()
+ {
+ 	char word[80];
+-	int  i = 0, j = 0;
+ 
+ 	printf("Enter any word: ");
+ 	fgets(word, sizeof(word), stdin);
+-	while (word[i] != '\0')
++	for (int i = 0, j; word[i] != '\0'; i += j)
+ 	{
+ 		j = 1;
+ 		if (word[i] == word[i + 1])
+@@ -32,6 +31,5 @@
+ 			while (word[i] == word[i + j]) j++;
+ 			printf("%d consecutive %c\n", j, word[i]);
+ 		}
+-		i += j;
+ 	}
+ }
