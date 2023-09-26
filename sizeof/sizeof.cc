@@ -17,7 +17,7 @@
 
 #include <iostream>
 
-int main(int argc, const char *argv[])
+int main()
 {
 	std::cout << sizeof(bool) << "	bool\n";
 	std::cout << sizeof(char) << "	char\n";
