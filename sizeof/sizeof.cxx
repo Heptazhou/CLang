@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2023 Heptazhou <zhou@0h7z.com>
+ * Copyright (C) 2022-2025 Heptazhou <zhou@0h7z.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -14,9 +14,9 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#include <iostream>
+import std;
 
-int main()
+auto main() -> int
 {
 	std::cout << sizeof(bool) << "	bool\n";
 	std::cout << sizeof(char) << "	char\n";
