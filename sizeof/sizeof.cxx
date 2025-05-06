@@ -18,14 +18,14 @@ import std;
 
 auto main() -> int
 {
-	std::cout << sizeof(bool) << "	bool\n";
-	std::cout << sizeof(char) << "	char\n";
-	std::cout << sizeof(wchar_t) << "	wchar_t\n";
-	std::cout << sizeof(short) << "	short\n";
-	std::cout << sizeof(int) << "	int\n";
-	std::cout << sizeof(long) << "	long\n";
-	std::cout << sizeof(float) << "	float\n";
-	std::cout << sizeof(double) << "	double\n";
-	std::cout << sizeof(long long) << "	long long\n";
-	std::cout << sizeof(long double) << "	long double\n";
+	std::println("{}\t{}", sizeof(bool), "bool");
+	std::println("{}\t{}", sizeof(char), "char");
+	std::println("{}\t{}", sizeof(wchar_t), "wchar_t");
+	std::println("{}\t{}", sizeof(short), "short");
+	std::println("{}\t{}", sizeof(int), "int");
+	std::println("{}\t{}", sizeof(long), "long");
+	std::println("{}\t{}", sizeof(float), "float");
+	std::println("{}\t{}", sizeof(double), "double");
+	std::println("{}\t{}", sizeof(long long), "long long");
+	std::println("{}\t{}", sizeof(long double), "long double");
 }
